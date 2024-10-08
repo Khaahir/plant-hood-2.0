@@ -3,6 +3,8 @@
     src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
+    
+
 
 
 .nav-container{
@@ -196,8 +198,8 @@ gap: 1rem;
     align-self: center;
     justify-self:  center;
     width: 50%
-
 }
+
 
 .card__btn{
    background-color: #ffffff;
@@ -209,7 +211,9 @@ gap: 1rem;
     padding-right:  0.5rem;
     padding-bottom: 0.5rem;
 }
-
+.card__btn__desk{
+    display:none
+}
 .card__icon__btn{
     height: 1.5rem;
     background-color: #B93857;
@@ -282,15 +286,15 @@ font-weight: bold;
     width: 5em;
 }
 
+.aside__title{
+    margin-bottom: 1rem;
+}
 
 .aside__bread{
     text-align: center;
     margin-top: 2rem;
 }
 
-.aside__title{
-    margin-bottom: 1rem;
-}
 
 .btn__aside{
 font-size: 1rem;
@@ -315,6 +319,10 @@ padding-right: 1rem;
     grid-column: 1 / 9;
     grid-row: 1 / 2;
     padding-top: 4rem;
+    display: block;
+}
+.footer__img__desk{
+    display: none;
 }
 
 .footer__logo{
@@ -322,6 +330,9 @@ padding-right: 1rem;
     grid-row: 1 / 2;
     justify-self: center;
     padding-top: 5rem
+}
+.overlay__box__desk{
+    display: none;
 }
 
 .overlay__box{
