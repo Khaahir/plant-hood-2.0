@@ -95,6 +95,26 @@
     margin-top: 2rem;
 }
 
+.card__btn__desk{
+    display: block;
+           margin-bottom: 1rem;
+       grid-column: 4 / 5;
+       grid-row: auto / 5;
+    width: 6rem;
+    height: 2rem;
+    justify-self: end;
+    margin-right: 1rem;
+    background-color: #B93857;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.card__btn{
+    display: none;
+
+}
+
 
 .footer__cards{
     grid-template-columns: repeat(4,1fr);
