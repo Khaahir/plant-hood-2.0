@@ -50,6 +50,10 @@ justify-self: center;
 padding-bottom: 3rem;
 }
 
+.form__btn{
+    margin-top: 1rem;
+}
+
 .header__main__logo{
     grid-column: 1 / 9;
     grid-row: 1 /4;
