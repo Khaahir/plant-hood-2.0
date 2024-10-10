@@ -19,8 +19,8 @@ font-family: open-sans;
 }
 
 body{
-    height: 100vh;
-    width:auto;
+    width: 100%;
+    height:auto;
    display: flex;
    flex-direction: column;
    padding: 1rem;
