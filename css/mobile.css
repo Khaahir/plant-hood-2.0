@@ -47,10 +47,9 @@ grid-template-columns: repeat(8 ,1fr);
 
 .nav__btn{
 
-grid-column: 7/ span 9;
-grid-row: 1;
-margin-left: 2rem;
-margin-top: 1rem;
+position: absolute;
+top: 1px;
+right:1px;
 }
 .logo__top{
     grid-column: 1 / span 9;
@@ -60,7 +59,7 @@ margin-top: 1rem;
 
 }
 .brown-box{
-    grid-column: 5/ span 8;
+    grid-column: 5/ span 9;
     grid-row: 2;
     height: 12rem;
     width: 100%;
@@ -70,7 +69,7 @@ margin-top: 1rem;
 }
 
 .green-box{
-    grid-column: 1 / span 4;
+    grid-column: 1 /  5;
     grid-row: 2;
 
     height: 12rem;
